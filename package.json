@@ -1,0 +1,23 @@
+{
+  "name": "baruchceo",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marfuen/BaruchCEO.git"
+  },
+  "author": "CEO Club",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marfuen/BaruchCEO/issues"
+  },
+  "homepage": "https://github.com/Marfuen/BaruchCEO#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
