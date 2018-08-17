@@ -14,6 +14,6 @@ app.get("*", function(req, res) {
 });
 
 
-app.listen(8000, function(){
-    console.log("App running on PORT: " + 8000)
+app.listen(3000, function(){
+    console.log("App running on PORT: " + 3000)
 });
