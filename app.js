@@ -9,6 +9,10 @@ app.get("/", function(req,res){
     res.render("home");
 });
 
+app.get("/team", function(req,res){
+	res.render("team.ejs");
+})
+
 app.get("*", function(req, res) {
     res.send("Sorry, page not found...");
 });
