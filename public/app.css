@@ -11,7 +11,7 @@ html {
 }
 */
 .a {
-	color: black;
+	color: #293fff;
 }
 
 .a:hover {
@@ -54,8 +54,8 @@ nav  {
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
-    background-color: #08c38e;
-    border-color: #08c38e;
+    background-color: #293fff;
+    border-color: #293fff;
 }
 
 .navbar img{
