@@ -2,20 +2,20 @@ html {
 	height: 100%;
 }
 
-body {
+/*body {
 	background-image:
 	linear-gradient(to bottom, rgba(188,188,188,0.4), rgba(188,188,188,0.4)),
   	url('https://cdn.gearpatrol.com/wp-content/uploads/2017/11/Ultimate-Desk-Setups-Gear-Patrol-Semi-Pro-1-1940x1300.jpg');
   	font-family: 'Roboto', sans-serif;
   	background-position: left;
 }
-
-a {
-	color: rgba(255,255,255,.7);
+*/
+.a {
+	color: #08c38e;
 }
 
-a:hover {
-	color: white;
+.a:hover {
+	color: gray;
 	transition: .3s;
 }
 
@@ -44,6 +44,27 @@ nav  {
 	width:300px;
 }
 
+.shopimg{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #08c38e;
+    border-color: #08c38e;
+}
+
+.row{
+    width: 100%;
+    height: 800px;
+}
+.centercarousel{
+    text-align: center;
+}
 /*Team Page*/
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
