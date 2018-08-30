@@ -27,6 +27,10 @@ app.get("/signup", function(req,res){
 	res.render("signup");
 })
 
+app.get("/confirmation", function(req,res){
+	res.render("confirmation");
+})
+
 app.post("/signup", function(req, res){
 	var email = req.body.email;
 	var major = req.body.major;
@@ -56,7 +60,7 @@ base('Applicants').create({
     console.log(record.getId());
 });
 
-res.redirect("/");
+res.redirect("/confirmation");
 });
 
 app.get("*", function(req, res) {
