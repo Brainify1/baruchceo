@@ -10,6 +10,19 @@ html {
   	background-position: left;
 }
 */
+
+.singupForm {
+    margin-top: 3%;
+}
+.insideForm {
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+#inputPassword4 {
+    padding-right: 50%;
+}
+
 .a {
 	color: #293fff;
 }
