@@ -1,76 +1,99 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119887588-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119887588-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-119887588-2');
-</script>
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-119887588-2');
+
+	</script>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="/app.css">
+	<link rel="stylesheet" type="text/css" href="/app.css">
 	<link rel="stylesheet" type="text/css" href="/signup.css">
- 	 <link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/0027/9248/9058/files/Screen_Shot_2018-08-19_at_8.04.43_PM_16f79950-16ed-4f6a-a883-4850d8ab7ecf_32x32.png?v=1534723559" />
+	<link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/0027/9248/9058/files/Screen_Shot_2018-08-19_at_8.04.43_PM_16f79950-16ed-4f6a-a883-4850d8ab7ecf_32x32.png?v=1534723559" />
 	<title>Signup Now!</title>
 </head>
+
 <body>
 
-<div class="container-fluid">
-	<div class="row p-2 my-5">
-		<div class="col-md-8 offset-md-2 signupCard mt-5">
-			<div class="row">
-			 <div class="col-sm-6 p-4 text-center" style="background-color: #EEE; border-radius: 5px 0px 0px 5px">
-				 <div>
-				 
-				 </div>
-				<img src="/images/logo.png" class="img-fluid p-5" style="max-width: 300px;">
-				 <h5>College Entrepreneurial Organization</h5>
-				 <h1 class="m-3">🚀</h1> 
-				 <h3>Member Application Form</h3>
-				 <p>Join our community of doers and get access to our exclusive Slack channel, private events, network and more!</p>
-				 <h5>Build your life.</h5>
-			
-			</div>
-			 <div class="col-sm-6 p-4">
-			<form method="POST" action="/signup" class="insideForm">
-			 
-			  	<div class="form-group">
-			      <label for="inputPassword4">Full Name</label>
-			      <input type="text" class="form-control" id="inputPassword4" placeholder="Elon Musk" name="fullName" required>
-			    </div>
-			    <div class="form-group">
-			      <label for="inputEmail4">Email</label>
-			      <input type="email" class="form-control" id="inputEmail4" placeholder="elon@spacex.com" name="email" required>
-			    </div>
-			 
-			  <div class="form-group">
-			    <label for="inputAddress">Phone Number</label>
-			    <input type="text" class="form-control" id="inputAddress" placeholder="646-123-4567" name="phoneNumber" required>
-			  </div>
-			  <div class="form-group">
-			    <label for="inputAddress2">Major</label>
-			    <input type="text" class="form-control" id="inputAddress2" placeholder="Economics" name="major" required>
-			  </div>
-			  <div class="form-group">
-			    
-			      <label for="inputCity">Why do you want to join?</label>
-			      <input type="text" class="form-control" id="inputCity" name="reason" placeholder="I want to go to Mars!" required>
-		
-			  </div>
-			  <button type="submit" class="btn btn-primary btn-lg btn-block" value="formInfo">Submit</button>
-			</form>
-				 </div>
-			
-			
+	<div class="container-fluid">
+		<div class="row p-2 my-5">
+			<div class="col-md-8 offset-md-2 signupCard mt-5">
+				<div class="row">
+					<div class="col-sm-6 p-4 text-center" style="background-color: #EEE; border-radius: 5px 0px 0px 5px">
+						<div>
+
+						</div>
+						<img src="/images/logo.png" class="img-fluid p-5" style="max-width: 300px;">
+						<h5>College Entrepreneurial Organization</h5>
+						<h1 class="m-3">🚀</h1>
+						<h3>Member Application Form</h3>
+						<p>Join our community of doers and get access to our exclusive Slack channel, private events, network and more!</p>
+						<h5>Build your life.</h5>
+
+					</div>
+					<div class="col-sm-6 p-4">
+						<form method="POST" action="/signup" class="insideForm">
+
+							<div class="form-group">
+								<label for="inputPassword4">Full Name</label>
+								<input type="text" class="form-control" id="inputPassword4" placeholder="Elon Musk" name="fullName" required>
+							</div>
+							<div class="form-group">
+								<label for="inputEmail4">Email</label>
+								<input type="email" class="form-control" id="inputEmail4" placeholder="elon@spacex.com" name="email" required>
+							</div>
+
+							<div class="form-group">
+								<label for="inputAddress">Phone Number</label>
+								<input type="text" class="form-control" id="inputAddress" placeholder="646-123-4567" name="phoneNumber" required>
+							</div>
+							<div class="form-group">
+								<label for="inputAddress2">Major</label>
+								<input type="text" class="form-control" id="inputAddress2" placeholder="Economics" name="major" required>
+							</div>
+							<div class="form-group">
+
+								<label for="inputCity">Why do you want to join?</label>
+								<input type="text" class="form-control" id="inputCity" name="reason" placeholder="I want to go to Mars!" required>
+
+							</div>
+<!--
+
+							<div class="form-group">
+
+								<div class="dropdown">
+									<button type="button" class="btn btn-outline dropdown-toggle" data-toggle="dropdown">
+    Are you actively wokring on an idea?
+  </button>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#">Yes, I have a startup/product.</a>
+										<a class="dropdown-item" href="#">Not yet, but I have an idea.</a>
+										<a class="dropdown-item" href="#">Not currectly working on anything.</a>
+									</div>
+								</div>
+
+							</div>
+-->
+							<button type="submit" class="btn btn-primary btn-lg btn-block" value="formInfo">Submit</button>
+						</form>
+					</div>
+
+
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
 
 
@@ -81,15 +104,10 @@
 
 
 
-
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </body>
+
 </html>
