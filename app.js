@@ -31,6 +31,10 @@ app.get("/confirmation", function(req,res){
 	res.render("confirmation");
 })
 
+app.get("/directory", function(req, res) {
+    res.render("directory");
+});
+
 app.post("/signup", function(req, res){
 	var email = req.body.email;
 	var major = req.body.major;
@@ -63,9 +67,6 @@ base('Applicants').create({
 res.redirect("/confirmation");
 });
 
-app.get("/directory", function(req, res) {
-    res.render("directory");
-});
 
 app.get("*", function(req, res) {
     res.send("Sorry, page not found...");
