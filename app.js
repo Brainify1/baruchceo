@@ -64,7 +64,7 @@ res.redirect("/confirmation");
 });
 
 app.get("/directory", function(req, res) {
-    res.render("/directory");
+    res.render("directory");
 });
 
 app.get("*", function(req, res) {
