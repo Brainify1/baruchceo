@@ -1,0 +1,40 @@
+
+
+
+
+Email automation:
+
+Trial Users - Send them, one insight every two days, (4 total) during their first 7 Days (Trial)
+Paid/Active Users - Send them, one insight every 3 days, ongoing.
+
+
+Given a list of Users:
+- Is user Paid or Trial?
+- How many have we sent so far?
+- When did we send them last isight?
+- When should we send them next insight? (Logic or implicit in code)
+
+- Stripe logic, look for isPaid before sending insights.. || Users will change status at any given time.
+
+
+claudio@aksned.com | Paid | 10 Insights to Date | Last Sent 10/28/18 | 
+chintan@askned.com | Free | 20 Insights to Date | Last Sent 11/12/18 |
+
+
+// Email Sender Function;
+
+    // Search users in our table that
+    queryInsightsDbList();
+        -- Are Active -- Have insight timestamp sent date +47 hours;
+        returns array of db_names
+
+    // Insights sender    
+    for Each db in the array;
+        sendInsight();
+
+
+// Create Scheduler/Cron job that runs every few hours;
+    // Create function/program that sends emails right then and there
+
+
+    

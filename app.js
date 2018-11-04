@@ -63,6 +63,10 @@ base('Applicants').create({
 res.redirect("/confirmation");
 });
 
+app.get("/directory", function(req, res) {
+    res.render("./directory");
+});
+
 app.get("*", function(req, res) {
     res.send("Sorry, page not found...");
 });
